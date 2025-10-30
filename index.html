@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>معرض التصميم والمونتاج</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div ><img src="../موقع شغل نت/blue-aesthetic-5120x2880-17495.png" class="logo"></div>
+    <h1>Mohammed Zidan</h1>
+    <nav>
+      <a href="#home">الرئيسية</a>
+      <a href="#photos">الصور</a>
+      <a href="#videos">الفيديوهات</a>
+      <a href="#contact">اتصل</a>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="hero-text">
+      <h2>أهلاً بك في موقعي</h2>
+      <p>أنا مصمم ومحرر فيديو، هنا يمكنك مشاهدة بعض أعمالي في التصميم والمونتاج.</p>
+      <a href="#photos" class="btn">شاهد الصور</a>
+      <a href="#videos" class="btn outline">شاهد الفيديوهات</a>
+    </div>
+  </section>
+
+  <section id="photos" class="gallery">
+    <h2>معرض الصور</h2>
+    <div class="grid">
+      <img src="pexels-maoriginalphotography-1485894.jpg" alt="design1" />
+      <img src="istockphoto-1498666644-1024x1024.jpg" alt="design2" />
+      <img src="pexels-lilartsy-1213447.jpg" alt="design3" />
+      <img src="windows-11-stock-grey-abstract-dark-background-3840x2400-8957.png" alt="design4" />
+    </div>
+  </section>
+
+  <section id="videos" class="videos">
+    <h2>فيديوهات المونتاج</h2>
+    <div class="video-grid">
+      <video controls>
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" />
+      </video>
+      <video controls>
+        <source src="https://www.w3schools.com/html/movie.mp4" type="video/mp4" />
+      </video>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>تواصل معي</h2>
+    <form>
+      <input type="text" placeholder="الاسم" required />
+      <input type="email" placeholder="البريد الإلكتروني" required />
+      <textarea placeholder="الرسالة" rows="5"></textarea>
+      <button type="submit">إرسال</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© <span id="year"></span> Mohammed Zidan</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
